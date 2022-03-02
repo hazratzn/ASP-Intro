@@ -1,0 +1,13 @@
+﻿@{
+        ViewData["Title"] = "Index";
+
+        string[] names = {"Rashad", "Orhkan", "Tehmin"};
+}
+
+<h1 class="text-danger">Hello world!</h1>
+<ul>
+    @foreach (var name in names)
+            {
+                <li>@name</li>
+            }
+</ul>
